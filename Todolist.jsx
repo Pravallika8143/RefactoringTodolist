@@ -75,7 +75,7 @@ function TodoList(){
                  return ( <Todo t={todo} i={i} del={deleteTodo} done={doneTodo}></Todo>
                         )
                     })
-                }
+                };
             </ul>
         </div>
     )
