@@ -68,7 +68,7 @@ function TodoList(){
         <div className="border border-success border-5 p-2 m-2">
             <h1>TodoList</h1>
             <input type="text" id="d1"/>
-            <button  style={{marginLeft:"2%"}}onClick={()=>{addTodo()}}>AddTodo</button>
+            <button  style={{marginLeft:"2%",borderRadius:"8px"}}onClick={()=>{addTodo()}}>AddTodo</button>
             <ul>
                 {
                 todos.map((todo,i)=>{
