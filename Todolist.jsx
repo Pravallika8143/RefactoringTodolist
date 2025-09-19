@@ -39,7 +39,7 @@ function TodoList(){
             }
            });
         });
-    }
+    };
 
     function addTodo(){
         var newtodo={
