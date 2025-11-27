@@ -1,14 +1,16 @@
-import React from "react"
-import TodoList from "../Todolist"
+import React from "react";
+import TodoList from "../Todolist";
 
-function App(){
-return (
+function App() {
+  return (
     <>
-    <div className="border border-dark border-3 p-2 m-2 text-center">
-      <TodoList></TodoList>
-    </div>
+      <div className="card m-3">
+        <div className="card-body text-center">
+          <TodoList />
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
 export default App;
