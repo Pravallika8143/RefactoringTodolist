@@ -10,6 +10,7 @@ function TodoList() {
     { title: "raji", id: uuidv4(), status: false },
     { title: "mounika", id: uuidv4(), status: true },
   ]);
+
   // actions
   function deleteTodo(id) {
     setTodos(cv => cv.filter(todo => todo.id !== id));
