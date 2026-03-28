@@ -8,7 +8,6 @@ function TodoList() {
     { title: "pravallika", id: uuidv4(), status: true },
     { title: "uma", id: uuidv4(), status: true },
     { title: "raji", id: uuidv4(), status: false },
-    { title: "mounika", id: uuidv4(), status: true },
   ]);
 
   // actions
